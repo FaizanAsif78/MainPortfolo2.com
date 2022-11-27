@@ -494,7 +494,7 @@ margin-top: 40px;
 margin-left: 20px;
 margin-right: 20px;
 border-radius: 5px;
-border: black solid 2px;
+border: rgb(194, 194, 194) solid 1px;
 transition: 0.7s ease;
 
 }
@@ -667,10 +667,10 @@ padding-right: 5em;
     .picture img{
         width: 30em;
         height: 30em;
-        margin-top: -70em;
+        margin-top: -85em;
         align-items: center;
         display: flex;
-        margin-left: 20em;
+        margin-left: 2em;
     }
     .infodetail{
         border-bottom-width:unset;
@@ -697,13 +697,16 @@ padding-right: 5em;
 @media (max-width:576px){
     
 .textarea {
-    margin-left: -7em;
+    margin-left: -10em;
 }
 .picture img{
-    margin-left: 10em;
+    margin-left: 7em;
 }
 .changebtn{
     margin-left: -4em;
+}
+.textarea h2{
+margin-top: 20em;
 }
 }
 
